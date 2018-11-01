@@ -1,6 +1,7 @@
-* {
+body {
   font-family: Helvetica, Arial, sans-serif;
   text-align: center;
+  justify-content: center;
 }
 button {
   background-color: rgb(82, 186, 179);
@@ -11,13 +12,17 @@ button {
   text-transform: uppercase;
   width: 200px;
   cursor: pointer;
+  align-items: center;
 }
 #placeholder {
   height: 100px;
   width: 100px;
-  padding: 50px;
-  margin: 50px auto;
+  margin: 55px auto;
   border: 1px solid gray;
   border-radius: 10px;
   font-size:80px;
+}
+
+#players-display {
+  display: none;
 }

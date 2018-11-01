@@ -11,7 +11,32 @@
   <body>
     <p id="placeholder">
     </p>
-    <button id="roll-button">Roll Dice</button>
-    <button id="hold-button">Hold</button>
+
+    <form class="player-select">
+      <input type="text" id="player1" placeholder="Enter Name">
+      <input type="text" id="player2" placeholder="Enter Name">
+      <button type="submit" id="startPlay">Let's Play</button>
+
+    </form>
+
+
+    <!-- player1 -->
+    <div id="players-display">
+      <div class="row">
+        <div class="col-md-6" id="player1-game">
+          <h1 id="player1Name"></h1>
+          <h3 id="player1Score"></h3>
+          <button id="player1-button">Roll Dice</button>
+          <button id="hold-button">Hold</button>
+        </div>
+        <!-- player2 -->
+        <div class="col-md-6" id="player2-game">
+          <h1 id="player2Name"></h1>
+          <h3 id="player2Score"></h3>
+          <button id="player2-button">Roll Dice</button>
+          <button id="2hold-button">Hold</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
